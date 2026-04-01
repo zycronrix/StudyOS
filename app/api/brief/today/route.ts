@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
 import { db, morningBriefs, lectures, emails, assignments, users } from "@/lib/db"
